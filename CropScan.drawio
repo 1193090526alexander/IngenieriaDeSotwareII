@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T03:50:06.263Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="FusAYWGZdoGiFL0G1KLV" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-07T04:30:37.101Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="GwYJWkPx_h-LQBU9YrSn" version="21.0.2" type="github">
   <diagram name="Página-1" id="VM4DMKes7zrzFQn_ShIZ">
     <mxGraphModel dx="2084" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,23 +58,17 @@
         <mxCell id="TpQG6C9cROLoZ1MlETch-2" value="ManoDeObra" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TpQG6C9cROLoZ1MlETch-3" value="Recomendaciones" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="370" width="120" height="60" as="geometry" />
+        <mxCell id="TpQG6C9cROLoZ1MlETch-3" value="Recomendación" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TpQG6C9cROLoZ1MlETch-4" value="Cultivo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="370" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TpQG6C9cROLoZ1MlETch-5" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TpQG6C9cROLoZ1MlETch-4" target="gtoM_6XYmSIpQko0jhc2-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="280" as="sourcePoint" />
-            <mxPoint x="220" y="230" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="270" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TpQG6C9cROLoZ1MlETch-6" value="Tiene--&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="160" y="280" width="60" height="30" as="geometry" />
+          <mxGeometry x="280" y="310" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TpQG6C9cROLoZ1MlETch-7" value="Está--&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=270;" vertex="1" parent="1">
-          <mxGeometry x="180" y="280" width="80" height="30" as="geometry" />
+          <mxGeometry x="310" y="310" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TpQG6C9cROLoZ1MlETch-8" value="Historial" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" width="120" height="60" as="geometry" />
@@ -102,6 +96,32 @@
         </mxCell>
         <mxCell id="TpQG6C9cROLoZ1MlETch-14" value="Hace parte--&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-220" y="200" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TpQG6C9cROLoZ1MlETch-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="335" y="370" as="sourcePoint" />
+            <mxPoint x="230" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="335" y="280" />
+              <mxPoint x="230" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TpQG6C9cROLoZ1MlETch-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="TpQG6C9cROLoZ1MlETch-3" target="gtoM_6XYmSIpQko0jhc2-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="350" as="sourcePoint" />
+            <mxPoint x="110" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="280" />
+              <mxPoint x="210" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TpQG6C9cROLoZ1MlETch-22" value="Tiene--&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="60" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TpQG6C9cROLoZ1MlETch-23" value="Está--&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=270;" vertex="1" parent="1">
+          <mxGeometry x="90" y="310" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
