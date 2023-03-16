@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T02:53:10.203Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 OPR/96.0.0.0" etag="rD2YHM070N5Y1g2vauie" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-16T02:55:18.551Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 OPR/96.0.0.0" etag="KZ2Kmee7U27idwmhLu8w" version="21.0.6" type="github">
   <diagram name="Página-1" id="VM4DMKes7zrzFQn_ShIZ">
     <mxGraphModel dx="1837" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="gtoM_6XYmSIpQko0jhc2-5" value="Usuario" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="390" y="-30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gtoM_6XYmSIpQko0jhc2-12" value="Pertenece--&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="gtoM_6XYmSIpQko0jhc2-12" value="Analiza--&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="35" y="174" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gtoM_6XYmSIpQko0jhc2-13" value="&amp;lt;--Tiene" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
