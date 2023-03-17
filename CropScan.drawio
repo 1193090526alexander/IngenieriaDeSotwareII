@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T04:38:04.802Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="XInC78K_GEKTWeMRaDaU" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-17T04:52:28.754Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="S2HP_6O1BLCchtZV0Tvw" version="21.0.6" type="github">
   <diagram name="Página-1" id="VM4DMKes7zrzFQn_ShIZ">
-    <mxGraphModel dx="1525" dy="1544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1767" dy="1674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -148,7 +148,7 @@
         <mxCell id="TpQG6C9cROLoZ1MlETch-29" value="CostoIndirecto" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-340" y="25" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TpQG6C9cROLoZ1MlETch-30" value="Egresos" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="TpQG6C9cROLoZ1MlETch-30" value="Egreso" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-80" y="-80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TpQG6C9cROLoZ1MlETch-31" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="gtoM_6XYmSIpQko0jhc2-1" target="TpQG6C9cROLoZ1MlETch-30" edge="1">
@@ -368,6 +368,28 @@
         </mxCell>
         <mxCell id="st-eu1iesrguf9fTj6S1-20" value="1...*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="295" y="555" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="st-eu1iesrguf9fTj6S1-21" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="170" as="sourcePoint" />
+            <mxPoint x="35" y="-20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-50" y="140" />
+              <mxPoint x="35" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="st-eu1iesrguf9fTj6S1-23" value="Conlleva--&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-89;" vertex="1" parent="1">
+          <mxGeometry x="10" y="46" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="st-eu1iesrguf9fTj6S1-24" value="Tiene--&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="-10.5" y="52" width="67" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="st-eu1iesrguf9fTj6S1-25" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="140" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="st-eu1iesrguf9fTj6S1-26" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="39" y="-20" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
