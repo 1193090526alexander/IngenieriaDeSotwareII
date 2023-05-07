@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T17:48:00.888Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="LwnFZp63yAViQrgPoNCv" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-07T00:20:27.331Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="LdbPV9BLYA8hh8vK4EfD" version="21.2.1" type="github">
   <diagram name="Página-1" id="VM4DMKes7zrzFQn_ShIZ">
-    <mxGraphModel dx="3271" dy="2481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2049" dy="1825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="wAAVuN6HU1YgThgMk9Jp-1" value="AnalisisDeSuelo" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="wAAVuN6HU1YgThgMk9Jp-1" value="AnalisisSuelo" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-110" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gtoM_6XYmSIpQko0jhc2-1" value="Suelo" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -52,8 +52,8 @@
         <mxCell id="nHzaXoaMLMGKjQFt03uS-3" value="&amp;lt;--Pertenece" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="549" y="150" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nHzaXoaMLMGKjQFt03uS-4" value="Tiene--&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="1" vertex="1">
-          <mxGeometry x="536" y="120" width="80" height="30" as="geometry" />
+        <mxCell id="nHzaXoaMLMGKjQFt03uS-4" value="Administrada--&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="1" vertex="1">
+          <mxGeometry x="536" y="120" width="94" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TpQG6C9cROLoZ1MlETch-3" value="Recomendación" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="880" width="120" height="60" as="geometry" />
@@ -83,7 +83,7 @@
         <mxCell id="TpQG6C9cROLoZ1MlETch-10" value="Tiene--&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=270;" parent="1" vertex="1">
           <mxGeometry x="239" y="40" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TpQG6C9cROLoZ1MlETch-11" value="TipoAnlisisDeSuelo" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="TpQG6C9cROLoZ1MlETch-11" value="TipoAnlisisSuelo" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-380" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TpQG6C9cROLoZ1MlETch-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="wAAVuN6HU1YgThgMk9Jp-1" edge="1">
