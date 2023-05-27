@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-26T14:52:34.524Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="WLHkY35G2IR91ycheptX" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-27T01:57:05.318Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="OJkWrOgdmfVMUVUAzZTn" version="21.3.2" type="github">
   <diagram name="Página-1" id="1QwwpHR64QtNWSAbLe8_">
-    <mxGraphModel dx="4900" dy="2187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3341" dy="1400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -189,7 +189,7 @@
           <mxGeometry x="525" y="1047" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bDuqiSPHqb18X5ePKALd-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="660" width="1200" height="545" as="geometry" />
+          <mxGeometry x="-187" y="675.5" width="1200" height="545" as="geometry" />
         </mxCell>
         <mxCell id="bDuqiSPHqb18X5ePKALd-47" value="El DNS es utilizado&amp;nbsp; para cuando un usuario quiere acceder&amp;nbsp; a la aplicación&amp;nbsp; protegido por un WAF, la configuración DNS se utiliza para redirigir el tráfico del cliente hacia el WAF antes de llegar al servidor de destino" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1370" y="710.5099999999999" width="310" height="96.33" as="geometry" />
@@ -211,6 +211,9 @@
         </mxCell>
         <mxCell id="bDuqiSPHqb18X5ePKALd-54" value="Azure Application Gateway la utilizaremos en nuestro aplicativo para mejorar la seguridad y el rendimiento&amp;nbsp; en la nube de Microsoft Azure. facilita la escalabilidad y rendimiento del aplicativo web, ayuda a un enrutamiento flexible y genera mayor seguridad en los datos que en este se encuentren" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1370" y="982.25" width="300" height="87.75" as="geometry" />
+        </mxCell>
+        <mxCell id="bDuqiSPHqb18X5ePKALd-67" value="DNS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="361" y="789" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
