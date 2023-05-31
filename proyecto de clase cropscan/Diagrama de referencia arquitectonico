@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-31T17:56:49.022Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="m-iIXAietN4iR8bhC2bm" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-31T21:57:16.974Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="wdB0z5BnzxDNOSwF8rVK" version="21.3.5" type="github">
   <diagram name="Página-1" id="1QwwpHR64QtNWSAbLe8_">
-    <mxGraphModel dx="2587" dy="980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2427" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -130,7 +130,7 @@
           <mxGeometry x="421" y="1129.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zqNlC96H9wW6qGcsrM_O-47" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Arquetipo de Referencia&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="197.75" y="630" width="430.5" height="30" as="geometry" />
+          <mxGeometry x="198" y="620" width="430.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zqNlC96H9wW6qGcsrM_O-52" value="HTTP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="352" y="935.5" width="60" height="30" as="geometry" />
@@ -217,7 +217,7 @@
           <mxGeometry x="1370" y="840.5" width="290" height="99.5" as="geometry" />
         </mxCell>
         <mxCell id="bDuqiSPHqb18X5ePKALd-53" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1240" y="640" width="450" height="510" as="geometry" />
+          <mxGeometry x="1240" y="650" width="450" height="510" as="geometry" />
         </mxCell>
         <mxCell id="bDuqiSPHqb18X5ePKALd-54" value="Azure Application Gateway la utilizaremos en nuestro aplicativo para mejorar la seguridad y el rendimiento&amp;nbsp; en la nube de Microsoft Azure. facilita la escalabilidad y rendimiento del aplicativo web, ayuda a un enrutamiento flexible y genera mayor seguridad en los datos que en este se encuentren" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1370" y="982.25" width="300" height="87.75" as="geometry" />
