@@ -1,9 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2023-05-31T19:34:46.437Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.6" etag="Ni0fQbp3T8qlzHBVkT88" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-31T20:33:24.601Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="SaD1zuv1a20yFJoh4784" version="21.3.6" type="github">
   <diagram name="Página-1" id="0qRRQRxwDM9Nvl6XgYe7">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bSEqzXfy3EvIAYUtpRTj-2" value="&amp;laquo;Annotation&amp;raquo;&lt;br/&gt;&lt;b&gt;Component&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bSEqzXfy3EvIAYUtpRTj-3" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="bSEqzXfy3EvIAYUtpRTj-2">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bSEqzXfy3EvIAYUtpRTj-4" value="" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="225" width="180" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
