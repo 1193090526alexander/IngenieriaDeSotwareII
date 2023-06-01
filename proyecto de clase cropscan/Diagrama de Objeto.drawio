@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-01T12:26:37.475Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="fpPjKBkPouZGFAkl-wAT" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-01T12:42:16.217Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="J3Vj69ZNLik5KxVJBdx7" version="21.3.6" type="github">
   <diagram name="Página-1" id="5E9wiOj3teGKizSx84hF">
-    <mxGraphModel dx="1753" dy="1685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2181" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,8 +49,8 @@
         <mxCell id="TdMkB6VLnguAnNnl3j36-7" value="Nit: &quot;123789-0&quot;&lt;br&gt;Usuaro: Usuacrop&lt;br&gt;Nombre: &quot;la Playa&quot;&lt;br&gt;Direccion: &quot;veredad el tambo&quot;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="380" y="170" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TdMkB6VLnguAnNnl3j36-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="249" y="1000" width="120" height="60" as="geometry" />
+        <mxCell id="TdMkB6VLnguAnNnl3j36-14" value="Identificador: 222&lt;br&gt;CantidadFertilizanteCultivo: 8&lt;br&gt;CantidadFertilizantePlanta:&amp;nbsp;0.008 gramos&lt;br&gt;ComponeneteFaltante: Comfalcrop&lt;br&gt;AreaPlantam^2: 0.4&lt;br&gt;Descripcion: &quot;esta es la cantidad que debe suministrarle al suelo para mejorar este nutriente y obtener una mejor produccion y un equilibio&quot;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="160" y="940" width="320" height="130" as="geometry" />
         </mxCell>
         <mxCell id="JgrjCOWLmLEizN2hWKvV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="TdMkB6VLnguAnNnl3j36-15" target="TdMkB6VLnguAnNnl3j36-164">
           <mxGeometry relative="1" as="geometry" />
@@ -198,12 +198,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TdMkB6VLnguAnNnl3j36-135" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="TdMkB6VLnguAnNnl3j36-14" target="TdMkB6VLnguAnNnl3j36-152" edge="1">
+        <mxCell id="TdMkB6VLnguAnNnl3j36-135" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="TdMkB6VLnguAnNnl3j36-14" target="TdMkB6VLnguAnNnl3j36-152" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="950" as="sourcePoint" />
             <mxPoint x="69" y="640" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="69" y="1030" />
+              <mxPoint x="70" y="1040" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -273,18 +273,18 @@
           <mxGeometry x="710" y="430" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TdMkB6VLnguAnNnl3j36-171" value="Recomecrop:Recomendación" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="249" y="940" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="880" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TdMkB6VLnguAnNnl3j36-172" value="Identificador: 1222&lt;br&gt;TipoNutriente:&amp;nbsp;TipoNutcrop&lt;br&gt;Requerimiento: 0.3&lt;br&gt;TipoPlanta:&amp;nbsp;TipoPlancrop" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="660" y="585" width="210" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TdMkB6VLnguAnNnl3j36-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.411;entryY=0.024;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="TdMkB6VLnguAnNnl3j36-173" target="TdMkB6VLnguAnNnl3j36-171" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JgrjCOWLmLEizN2hWKvV-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="TdMkB6VLnguAnNnl3j36-173">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-130.00000000000045" y="490" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="JgrjCOWLmLEizN2hWKvV-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.284;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="TdMkB6VLnguAnNnl3j36-173" target="TdMkB6VLnguAnNnl3j36-171">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TdMkB6VLnguAnNnl3j36-173" value="Identificador: 444&lt;br&gt;ComponenteNutricional: Comnutrcrop&amp;nbsp;&lt;br&gt;ResultadoAnalisisSuelo: Resulansucrop&lt;br&gt;RequerimientoFaltante: 0.2" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="130" y="770" width="240" height="70" as="geometry" />
