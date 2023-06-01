@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-01T12:42:16.217Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="J3Vj69ZNLik5KxVJBdx7" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-01T15:35:36.365Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="0Jo4Vb9auYeftlNgiq2g" version="21.3.6" type="github">
   <diagram name="Página-1" id="5E9wiOj3teGKizSx84hF">
-    <mxGraphModel dx="2181" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1627" dy="1614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -177,19 +177,19 @@
           <mxGeometry x="-260" y="365" width="233" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TdMkB6VLnguAnNnl3j36-126" value="Umcrop:UnidadesMedida" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="9" y="525" width="120" height="60" as="geometry" />
+          <mxGeometry x="-20" y="525" width="149" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TdMkB6VLnguAnNnl3j36-127" value="" style="endArrow=none;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.09;entryY=1.036;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="TdMkB6VLnguAnNnl3j36-126" target="TdMkB6VLnguAnNnl3j36-164" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="140" y="450" as="sourcePoint" />
             <mxPoint x="166" y="330" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="40" y="310" />
-              <mxPoint x="160" y="310" />
+              <mxPoint x="17" y="320" />
+              <mxPoint x="137" y="320" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TdMkB6VLnguAnNnl3j36-128" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="TdMkB6VLnguAnNnl3j36-15" edge="1">
+        <mxCell id="TdMkB6VLnguAnNnl3j36-128" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.948;exitY=0.017;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="TdMkB6VLnguAnNnl3j36-15" edge="1" source="TdMkB6VLnguAnNnl3j36-126">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="120" y="520" as="sourcePoint" />
             <mxPoint x="200" y="480" as="targetPoint" />
@@ -203,12 +203,9 @@
             <mxPoint x="130" y="950" as="sourcePoint" />
             <mxPoint x="69" y="640" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="70" y="1040" />
+              <mxPoint x="55" y="1040" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="TdMkB6VLnguAnNnl3j36-141" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="229" y="620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TdMkB6VLnguAnNnl3j36-150" value="Identificador: 12312&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Nombre: &quot;foliar&quot;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-440" y="230" width="180" height="50" as="geometry" />
@@ -216,16 +213,8 @@
         <mxCell id="TdMkB6VLnguAnNnl3j36-151" value="Identificador: 123&lt;br&gt;TipoAnalisisSuelo:&amp;nbsp;TipoAnsucrop&lt;br&gt;Suelo:&amp;nbsp;Suelocrop&lt;br&gt;Fecha: 2/04/2023" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-200" y="230" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TdMkB6VLnguAnNnl3j36-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.897;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="TdMkB6VLnguAnNnl3j36-152" target="TdMkB6VLnguAnNnl3j36-167" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="160" y="614" />
-              <mxPoint x="160" y="614" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TdMkB6VLnguAnNnl3j36-152" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="9" y="585" width="120" height="60" as="geometry" />
+        <mxCell id="TdMkB6VLnguAnNnl3j36-152" value="Identificador: 1&lt;br&gt;Nombre: &quot;m&lt;sup&gt;2&lt;/sup&gt;&quot;&lt;br&gt;Descripcion: &quot;Representa unidades de metros cuadrados&quot;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="585" width="149" height="75" as="geometry" />
         </mxCell>
         <mxCell id="TdMkB6VLnguAnNnl3j36-153" value="Identificador: 32&lt;br&gt;Suelo: Suelocrop&lt;br&gt;FechaCompra: 2/05/2023&lt;br&gt;TipoEgreso: TipoEgcrop&lt;br&gt;Cantidad: 5&lt;br&gt;ValorTotal: 250000&lt;br&gt;NombreProducto: &quot;pago mano de obra de don javier&quot;&lt;br&gt;ValorUnidad: 50000" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-80" y="-16" width="157" height="136" as="geometry" />
@@ -262,9 +251,6 @@
         </mxCell>
         <mxCell id="TdMkB6VLnguAnNnl3j36-165" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Identificador: 32&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Suelo: Suelocrop&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;TipoPlanta: TipoPlancrop&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CantidadPlantas: 1000&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;FechaInicioSiembra: 01/06/2023&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;FechafinSiembra: 29/06/2023&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AreaPlantaciónm2: 1&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Descripcion: &quot;se hace siembra de cultivo de café&quot;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="190" y="400" width="200" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="TdMkB6VLnguAnNnl3j36-167" value="Tipoumcrop:TipoUnidadesMedida" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="229" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TdMkB6VLnguAnNnl3j36-169" value="Identificador: 999&lt;br&gt;Fecha: 1/06/2023&lt;br&gt;Descripcion: &quot;se hace siembra de cultivo de cafe en tiempos de lluvia&quot;&lt;br&gt;Cultivo:&amp;nbsp;Cultivocrop" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="414" y="600" width="199" height="80" as="geometry" />
