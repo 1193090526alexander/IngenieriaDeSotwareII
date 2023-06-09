@@ -5,7 +5,6 @@ INDEX VERSION 1.132+C:\Users\Helmer\Documents\IngenieriaDeSotwareII\WorkSpaceCro
 276361299.index
 1043579948.index
 700543993.index
-3008670862.index
 3200152169.index
 3340647084.index
 1613246721.index
@@ -20,7 +19,6 @@ INDEX VERSION 1.132+C:\Users\Helmer\Documents\IngenieriaDeSotwareII\WorkSpaceCro
 3964924330.index
 3218010220.index
 355040865.index
-2524580414.index
 3305843467.index
 4200088701.index
 2316647262.index
@@ -28,12 +26,9 @@ INDEX VERSION 1.132+C:\Users\Helmer\Documents\IngenieriaDeSotwareII\WorkSpaceCro
 3228779047.index
 1158744385.index
 144065028.index
-1051420757.index
 1020290110.index
 676664386.index
-3909654344.index
 2182397018.index
-1479868612.index
 2201417099.index
 1865797976.index
 62452169.index
@@ -73,7 +68,6 @@ INDEX VERSION 1.132+C:\Users\Helmer\Documents\IngenieriaDeSotwareII\WorkSpaceCro
 2826391902.index
 677573604.index
 1941671739.index
-1370770609.index
 3272828840.index
 3510137230.index
 3900724948.index
