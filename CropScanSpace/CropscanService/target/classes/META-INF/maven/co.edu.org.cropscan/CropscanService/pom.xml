@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>co.edu.org.cropscan</groupId>
-  <artifactId>CropscanEntity</artifactId>
+  <artifactId>CropscanService</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>CropscanEntity</name>
-  <description>Este componente es el que contiene las entidades que serán utilizadas por el componente de CropScanRepository el cual este ayudara al manejo de los datos que se almacenaran en una base de datos</description>
+  <name>CropscanService</name>
+  <description>Este componente es el que va contener las reglas de nuestro negocio por lo cual debe tener, garantizar un buen funcionamiento y asegurando que el dominio este protegido de accesos no autorizados en la aplicación CropScan.</description>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -25,11 +25,21 @@
 	  </dependency>
 	  
 	  <dependency>
-		  <groupId>org.projectlombok</groupId>
-		  <artifactId>lombok</artifactId>
-		  <version>1.18.26</version>
-		  <scope>compile</scope>
-		  <optional>true</optional>
+		  <groupId>co.edu.org.cropscan</groupId>
+		  <artifactId>CropscanDTO</artifactId>
+		  <version>0.0.1-SNAPSHOT</version>
+	  </dependency>
+	  
+	  <dependency>
+		  <groupId>co.edu.org.cropscan</groupId>
+		  <artifactId>CropscanEntity</artifactId>
+		  <version>0.0.1-SNAPSHOT</version>
+	  </dependency>
+	  
+	  <dependency>
+		  <groupId>co.edu.org.cropscan</groupId>
+		  <artifactId>CropscanRespository</artifactId>
+		  <version>0.0.1-SNAPSHOT</version>
 	  </dependency>
   </dependencies>
 </project>
