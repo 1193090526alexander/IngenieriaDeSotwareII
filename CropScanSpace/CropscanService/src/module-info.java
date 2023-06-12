@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author Helmer
- *
- */
-module CropscanService {
-}
