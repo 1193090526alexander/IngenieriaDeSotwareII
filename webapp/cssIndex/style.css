@@ -1,14 +1,9 @@
 /*=============================================================
     Authour URL: www.designbootstrap.com
-    
-    http://www.designbootstrap.com/
-
+    http://www.designbootstrap.com
     License: MIT
-
     http://opensource.org/licenses/MIT
-
     100% Free To use For Personal And Commercial Use.
-
     IN EXCHANGE JUST TELL PEOPLE ABOUT THIS WEBSITE
    
 ========================================================  */
@@ -107,7 +102,6 @@ padding:0px;
 .navbar-pad-original {
     padding: 0px;
 }
-
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
@@ -117,8 +111,6 @@ padding:0px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
 }
-
-
 /* =============================================================
   HEADER SECTION STYLES
  ============================================================ */
@@ -132,7 +124,6 @@ padding:0px;
     background-attachment: fixed;
     color: #fff;
 }
-
     #header .overlay {
         background-color: rgba(3, 3, 3, 0.8);
         min-height: 700px;
