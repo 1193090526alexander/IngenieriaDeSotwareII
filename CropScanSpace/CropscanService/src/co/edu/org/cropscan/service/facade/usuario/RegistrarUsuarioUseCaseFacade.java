@@ -1,5 +1,8 @@
-package co.edu.org.cropscan.service.facade.usuario;
+	package co.edu.org.cropscan.service.facade.usuario;
 
-public interface RegistrarUsuarioUseCaseFacade {
+import co.edu.org.cropscan.dto.UsuarioDTO;
+import co.edu.org.cropscan.service.facade.UseCaseFacade;
+
+public interface RegistrarUsuarioUseCaseFacade extends UseCaseFacade<UsuarioDTO> {
 
 }
