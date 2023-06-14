@@ -16,6 +16,7 @@ public class RegistrarFincaController {
 	
 	@Autowired
 	private RegistrarFincaUseCaseFacade facade;
+	
 
 	@PostMapping
 	public ResponseEntity<String> execute(@RequestBody FincaDTO finca){
@@ -23,4 +24,5 @@ public class RegistrarFincaController {
 		return new ResponseEntity<>("Éxito", HttpStatus.ACCEPTED);
 		
 	}
+
 }

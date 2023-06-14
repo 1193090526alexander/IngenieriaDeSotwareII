@@ -16,16 +16,12 @@ public class RegistrarTipoDocuemtoUseCaseImpl implements RegistrarTipoDocuemntoU
 	
 	@Override
 	public void execute(TipoDocumentoDomain domain) {
-		// TODO Auto-generated method stub
 		
 		//crear las reglas de negocio
 		//specification pattern o un validator pattern
-		
 		//Aqui deberas crear el ensamblador
 		
 		TipoDocumentoEntity entity = null;
-		
-		//repository.save(entity);
+		repository.save(entity);
 	}
-
-}
+}	
