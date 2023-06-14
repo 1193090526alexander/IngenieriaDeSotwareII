@@ -6,6 +6,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.Email;
 import lombok.AllArgsConstructor;
 
 import lombok.NoArgsConstructor;
@@ -25,6 +26,7 @@ public class UsuarioEntity {
 	@Id
 	private long documento;
 	private long telefono;
+	@Email
 	private String correo;
 	private String contrasena;
 

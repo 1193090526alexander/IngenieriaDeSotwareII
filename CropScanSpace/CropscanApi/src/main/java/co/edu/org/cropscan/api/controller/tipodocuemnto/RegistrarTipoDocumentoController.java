@@ -3,6 +3,7 @@ package co.edu.org.cropscan.api.controller.tipodocuemnto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,7 +13,8 @@ import co.edu.org.cropscan.dto.TipoDocumentoDTO;
 import co.edu.org.cropscan.service.facade.TipoDocumento.RegistrarTipoDocumentoUseCaseFacade;
 
 @RestController
-@RequestMapping("cropscan/api/v1/tipodocumento")
+@CrossOrigin(origins = "http://localhost:8080")
+@RequestMapping("/cropscan/tipodocumento/registrar")
 public class RegistrarTipoDocumentoController {
 	
 	@Autowired
@@ -21,7 +23,7 @@ public class RegistrarTipoDocumentoController {
 	@PostMapping
 	public ResponseEntity<String> execute(@RequestBody TipoDocumentoDTO tipodocuemnto){
 		facade.execute(tipodocuemnto);
-		return new ResponseEntity<>("Éxito", HttpStatus.ACCEPTED);
+		return new ResponseEntity<>("Éxito", HttpStatus.OK);
 		
 	}
 }

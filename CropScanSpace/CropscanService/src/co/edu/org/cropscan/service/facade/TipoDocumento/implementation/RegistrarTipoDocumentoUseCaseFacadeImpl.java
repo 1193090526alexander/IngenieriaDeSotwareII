@@ -22,7 +22,7 @@ public class RegistrarTipoDocumentoUseCaseFacadeImpl implements RegistrarTipoDoc
 	@Override
 	public void execute(TipoDocumentoDTO dto) {
 		//Sirve el asembler para llevar de DTO a Domain
-		TipoDocumentoDomain domain = null;
+	TipoDocumentoDomain domain = null;
 	usecase.execute(domain);	
 	}
 
