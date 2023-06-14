@@ -1,4 +1,4 @@
-package co.edu.org.cropscan.service.assembler;
+package co.edu.org.cropscan.service.assembler.usuario;
 
 import org.modelmapper.ModelMapper;
 

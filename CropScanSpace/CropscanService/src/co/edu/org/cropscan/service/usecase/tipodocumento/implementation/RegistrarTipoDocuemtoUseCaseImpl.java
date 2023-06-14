@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 
 import co.edu.org.cropscan.entity.TipoDocumentoEntity;
 import co.edu.org.cropscan.repository.TipoDocumentoRepository;
+import co.edu.org.cropscan.service.assembler.TipoDocumentoAssembler;
 import co.edu.org.cropscan.service.domain.TipoDocumentoDomain;
 import co.edu.org.cropscan.service.usecase.tipodocumento.RegistrarTipoDocuemntoUseCase;
 
@@ -14,6 +15,10 @@ public class RegistrarTipoDocuemtoUseCaseImpl implements RegistrarTipoDocuemntoU
 	@Autowired
 	private TipoDocumentoRepository repository;
 	
+	@Autowired
+	private  {
+		
+	}
 	@Override
 	public void execute(TipoDocumentoDomain domain) {
 		
