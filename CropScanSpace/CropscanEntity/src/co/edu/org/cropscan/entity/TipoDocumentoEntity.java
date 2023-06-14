@@ -24,7 +24,7 @@ public class TipoDocumentoEntity {
 	private Integer identificador;
 	@NotBlank
 	@NotNull
-	@Pattern
+	@Pattern(regexp = "^[a-zA-Z]+$", message = "La cadena debe contener solo letras")
 	private String nombre;
 
 }
