@@ -23,6 +23,7 @@ public class RegistrarUsuarioUseCaseImpl implements RegistrarUsuarioUseCase {
 	@Autowired
 	private UsuarioRepository repository;
 	
+	@Autowired
 	private final ModelMapper<UsuarioDomain, UsuarioEntity> modelmapper;
 	
 	public RegistrarUsuarioUseCaseImpl(UsuarioRepository repository, ModelMapper<UsuarioDomain, UsuarioEntity> modelmapper) {

@@ -1,6 +1,8 @@
 package co.edu.org.cropscan.service.usecase.finca.implementation;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Service;
 
 import co.edu.org.cropscan.entity.FincaEntity;
@@ -12,14 +14,15 @@ import co.edu.org.cropscan.service.domain.FincaDomain;
 import co.edu.org.cropscan.service.domain.TipoDocumentoDomain;
 import co.edu.org.cropscan.service.usecase.finca.RegistrarFincaUseCase;
 import co.edu.org.cropscan.service.usecase.tipodocumento.RegistrarTipoDocuemntoUseCase;
-
+@Configuration
 @Service
 public class RegistrarFincaUseCaseImpl implements RegistrarFincaUseCase {
 
 	@Autowired
 	private FincaRepository repository;
-	
-	private final ModelMapper<FincaDomain, FincaEntity> modelmapper;
+
+	@Autowired
+	private  ModelMapper<FincaDomain, FincaEntity> modelmapper;
 	
 	public RegistrarFincaUseCaseImpl(FincaRepository repository, ModelMapper<FincaDomain, FincaEntity> modelmapper) {
         this.repository = repository;

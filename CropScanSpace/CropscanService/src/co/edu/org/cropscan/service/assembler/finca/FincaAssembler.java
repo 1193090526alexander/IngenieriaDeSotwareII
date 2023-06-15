@@ -1,13 +1,14 @@
 package co.edu.org.cropscan.service.assembler.finca;
 
 import org.modelmapper.ModelMapper;
+import org.springframework.context.annotation.Configuration;
 
 import co.edu.org.cropscan.dto.FincaDTO;
 import co.edu.org.cropscan.entity.FincaEntity;
 import co.edu.org.cropscan.service.assembler.ModelMapperDTO;
 import co.edu.org.cropscan.service.domain.FincaDomain;
 
-
+@Configuration
 public class FincaAssembler implements co.edu.org.cropscan.service.assembler.ModelMapper<FincaDomain, FincaEntity>, ModelMapperDTO<FincaDTO, FincaDomain> {
 
 	ModelMapper mapper = new ModelMapper ();

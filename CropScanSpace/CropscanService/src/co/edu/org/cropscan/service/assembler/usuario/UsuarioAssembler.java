@@ -1,13 +1,13 @@
 package co.edu.org.cropscan.service.assembler.usuario;
 
 import org.modelmapper.ModelMapper;
-
+import org.springframework.context.annotation.Configuration;
 
 import co.edu.org.cropscan.dto.UsuarioDTO;
 import co.edu.org.cropscan.entity.UsuarioEntity;
 import co.edu.org.cropscan.service.assembler.ModelMapperDTO;
 import co.edu.org.cropscan.service.domain.UsuarioDomain;
-
+@Configuration
 public class UsuarioAssembler implements co.edu.org.cropscan.service.assembler.ModelMapper<UsuarioDomain, UsuarioEntity>, ModelMapperDTO<UsuarioDTO, UsuarioDomain> {
 	
 	ModelMapper mapper = new ModelMapper ();
