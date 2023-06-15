@@ -4,6 +4,8 @@ public class TipoDocumentoDomain {
 
 	private Integer identificador;
 	private String nombre;
+	
+	
 	public void setIdentificador(Integer identificador) {
 		this.identificador = identificador;
 	}

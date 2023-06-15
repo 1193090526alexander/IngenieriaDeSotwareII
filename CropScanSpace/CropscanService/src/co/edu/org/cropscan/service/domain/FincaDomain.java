@@ -6,6 +6,7 @@ public class FincaDomain {
 	private UsuarioDomain usuario;
 	private String nombre;
 	private String direccion;
+	
 	private void setNit(String nit) {
 		this.nit = nit;
 	}
