@@ -11,7 +11,7 @@ import co.edu.org.cropscan.dto.UsuarioDTO;
 import co.edu.org.cropscan.service.facade.usuario.RegistrarUsuarioUseCaseFacade;
 
 @RestController
-@RequestMapping("/usuario")
+@RequestMapping("/cropscan/api/v1/usuario")
 public class RegistrarUsuarioController {
 	
 	@Autowired
