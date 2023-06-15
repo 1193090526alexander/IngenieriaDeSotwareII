@@ -11,20 +11,19 @@ public class EmailController {
 	private final SendGrid toApi;
 	
 	public EmailController(){
-		this.toApi = new SendGrid("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");
+		this.toApi = new SendGrid("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");
 	}
 	
 	public void sendMail (){
 		
-		Email from = new Email("juanjose01212@gmail.com");
-	    Email to = new Email("juan.cardona4185@uco.net.co");
+		Email from = new Email("elmerp1193090526@gmail.com");
+	    Email to = new Email("elmerp1193090526@gmail.com");
 
 	    String subject = "Welcome to CropScan";
 	    Content content = new Content("text/plain", "Bienvenido ");
 
 	    Mail mail = new Mail(from, subject, to, content);
 
-	    SendGrid sg = new SendGrid(System.getenv("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"));
 	    Request request = new Request();
 	    
 	    try {
@@ -32,7 +31,7 @@ public class EmailController {
 		    request.setEndpoint("mail/send");
 		    request.setBody(mail.build());
 
-		    Response response = sg.api(request);
+		    Response response = toApi.api(request);
 
 		    System.out.println(response.getStatusCode());
 		    System.out.println(response.getHeaders());

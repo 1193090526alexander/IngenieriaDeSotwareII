@@ -1,5 +1,8 @@
 package co.edu.org.cropscan.service.domain;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class UsuarioDomain {
 	
 	private String nombre;
