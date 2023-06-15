@@ -1,20 +1,15 @@
 package co.edu.org.cropscan.service.usecase.finca.implementation;
 
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Service;
-
+import org.springframework.validation.annotation.Validated;
 import co.edu.org.cropscan.entity.FincaEntity;
-import co.edu.org.cropscan.entity.TipoDocumentoEntity;
 import co.edu.org.cropscan.repository.FincaRepository;
-import co.edu.org.cropscan.repository.TipoDocumentoRepository;
-import co.edu.org.cropscan.service.assembler.ModelMapper;
 import co.edu.org.cropscan.service.domain.FincaDomain;
-import co.edu.org.cropscan.service.domain.TipoDocumentoDomain;
 import co.edu.org.cropscan.service.usecase.finca.RegistrarFincaUseCase;
-import co.edu.org.cropscan.service.usecase.tipodocumento.RegistrarTipoDocuemntoUseCase;
-@Configuration
+
+@Validated
 @Service
 public class RegistrarFincaUseCaseImpl implements RegistrarFincaUseCase {
 
@@ -22,21 +17,14 @@ public class RegistrarFincaUseCaseImpl implements RegistrarFincaUseCase {
 	private FincaRepository repository;
 
 	@Autowired
-	private  ModelMapper<FincaDomain, FincaEntity> modelmapper;
-	
-	public RegistrarFincaUseCaseImpl(FincaRepository repository, ModelMapper<FincaDomain, FincaEntity> modelmapper) {
-        this.repository = repository;
-        this.modelmapper = modelmapper;
-	}
+	private ModelMapper modelMapper;
+		
 	@Override
 	public void execute(FincaDomain domain) {
 		
-		//crear las reglas de negocio
-		//specification pattern o un validator pattern
-		//Aqui deberas crear el ensamblador
-		
-		FincaEntity entity = null;
+		FincaEntity entity = modelMapper.map(domain, FincaEntity.class);
 		repository.save(entity);
+		modelMapper.map(entity, FincaDomain.class);	
 	}
 }	
 

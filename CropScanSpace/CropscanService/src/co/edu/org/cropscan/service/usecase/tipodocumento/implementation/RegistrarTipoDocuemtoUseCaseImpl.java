@@ -1,37 +1,43 @@
 package co.edu.org.cropscan.service.usecase.tipodocumento.implementation;
 
+
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.validation.annotation.Validated;
 
 import co.edu.org.cropscan.entity.TipoDocumentoEntity;
 import co.edu.org.cropscan.repository.TipoDocumentoRepository;
-import co.edu.org.cropscan.service.assembler.ModelMapper;
+
 import co.edu.org.cropscan.service.domain.TipoDocumentoDomain;
 import co.edu.org.cropscan.service.usecase.tipodocumento.RegistrarTipoDocuemntoUseCase;
 
+
+
 @Service
+@Validated
 public class RegistrarTipoDocuemtoUseCaseImpl implements RegistrarTipoDocuemntoUseCase {
 
+	@Autowired 
+	private TipoDocumentoRepository repository;
 	
 	@Autowired
-	private final TipoDocumentoRepository repository;
-	
-	@Autowired
-	private final ModelMapper<TipoDocumentoDomain, TipoDocumentoEntity> modelmapper;
+	private ModelMapper modelMapper;
 		
-	public RegistrarTipoDocuemtoUseCaseImpl(TipoDocumentoRepository repository, ModelMapper<TipoDocumentoDomain, TipoDocumentoEntity> modelmapper) {
-        this.repository = repository;
-        this.modelmapper = modelmapper;
-    }
 	@Override
 	public void execute(TipoDocumentoDomain domain) {
-		try {
-			domain.setIdentificador(Integer.getInteger(null));
-		} catch (Exception e) {
-			// TODO: handle exception
-		}
 		
-		TipoDocumentoEntity entity = new TipoDocumentoEntity();
-		repository.save(entity);
+			System.out.println( domain);
+			try {
+				TipoDocumentoEntity entity = modelMapper.map(domain, TipoDocumentoEntity.class);
+				repository.save(entity);
+				
+				
+			} catch (Exception e) {
+				throw e;
+				
+			}
+	
+		
 	}
 }	

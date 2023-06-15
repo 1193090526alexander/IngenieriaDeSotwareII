@@ -18,7 +18,7 @@ public class ListarTipoDocumentosUseCasesImpl implements ListarTipoDocumentoUseC
 	
 	@Override
 	public List<TipoDocumentoDomain> execute(Optional<TipoDocumentoDomain> domain) {
-		return List<TipoDocumentoDomain> repository;
+		return  null;
 	}
 
 }

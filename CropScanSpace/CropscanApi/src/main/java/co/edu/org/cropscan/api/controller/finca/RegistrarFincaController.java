@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import co.edu.org.cropscan.dto.FincaDTO;
 import co.edu.org.cropscan.service.facade.finca.RegistrarFincaUseCaseFacade;
+import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/cropscan/api/v1/finca")
@@ -20,15 +21,11 @@ public class RegistrarFincaController {
 	
 
 	@PostMapping
-	public ResponseEntity<String> execute(@RequestBody FincaDTO finca){
+	public ResponseEntity<String> execute(@RequestBody @Valid FincaDTO finca){
 		facade.execute(finca);
 		return new ResponseEntity<>("Éxito", HttpStatus.ACCEPTED);
 		
 	}
 	
-	 @GetMapping
-	    public String helloWorld() {
-	        return "¡Hola mundo!";
-	    }
 
 }
