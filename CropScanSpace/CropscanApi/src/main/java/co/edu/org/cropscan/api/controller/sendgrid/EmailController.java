@@ -16,7 +16,7 @@ public class EmailController {
 	
 	public void sendMail (){
 		
-		Email from = new Email("elmerp1193090526@gmail.com");
+		Email from = new Email("juanjose01212@gmail.com");
 	    Email to = new Email("juan.cardona4185@uco.net.co");
 
 	    String subject = "Welcome to CropScan";
@@ -39,7 +39,7 @@ public class EmailController {
 		    System.out.println(response.getBody());
 	    	
 	    }catch(IOException e){
-	    	
+	    	e.printStackTrace();	
 	    }
 	    
 	    	
