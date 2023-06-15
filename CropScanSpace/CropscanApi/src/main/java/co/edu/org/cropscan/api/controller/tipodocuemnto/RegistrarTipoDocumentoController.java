@@ -14,7 +14,7 @@ import co.edu.org.cropscan.service.facade.TipoDocumento.RegistrarTipoDocumentoUs
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("/registrardocuemnto")
+@RequestMapping("/cropscan/tipodocumento/registrar")
 public class RegistrarTipoDocumentoController {
 	
 	@Autowired
