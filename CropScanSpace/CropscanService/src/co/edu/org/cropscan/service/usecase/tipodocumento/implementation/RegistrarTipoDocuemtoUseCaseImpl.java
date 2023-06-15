@@ -16,6 +16,7 @@ public class RegistrarTipoDocuemtoUseCaseImpl implements RegistrarTipoDocuemntoU
 	@Autowired
 	private final TipoDocumentoRepository repository;
 	
+	@Autowired
 	private final ModelMapper<TipoDocumentoDomain, TipoDocumentoEntity> modelmapper;
 		
 	public RegistrarTipoDocuemtoUseCaseImpl(TipoDocumentoRepository repository, ModelMapper<TipoDocumentoDomain, TipoDocumentoEntity> modelmapper) {
@@ -24,12 +25,13 @@ public class RegistrarTipoDocuemtoUseCaseImpl implements RegistrarTipoDocuemntoU
     }
 	@Override
 	public void execute(TipoDocumentoDomain domain) {
+		try {
+			domain.setIdentificador(Integer.getInteger(null));
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
 		
-		//crear las reglas de negocio
-		//specification pattern o un validator pattern
-		//Aqui deberas crear el ensamblador
-		
-		TipoDocumentoEntity entity = null;
+		TipoDocumentoEntity entity = new TipoDocumentoEntity();
 		repository.save(entity);
 	}
 }	

@@ -11,19 +11,20 @@ import org.springframework.web.bind.annotation.RestController;
 
 import co.edu.org.cropscan.dto.TipoDocumentoDTO;
 import co.edu.org.cropscan.service.facade.TipoDocumento.RegistrarTipoDocumentoUseCaseFacade;
+import jakarta.validation.Valid;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:8080")
-@RequestMapping("/cropscan/tipodocumento/registrar")
+@RequestMapping("/registrardocuemnto")
 public class RegistrarTipoDocumentoController {
 	
 	@Autowired
 	private RegistrarTipoDocumentoUseCaseFacade facade;
 
 	@PostMapping
-	public ResponseEntity<String> execute(@RequestBody TipoDocumentoDTO tipodocuemnto){
+	public ResponseEntity<String> execute(@RequestBody @Valid TipoDocumentoDTO tipodocuemnto){
 		facade.execute(tipodocuemnto);
 		return new ResponseEntity<>("Éxito", HttpStatus.OK);
 		
 	}
 }
+

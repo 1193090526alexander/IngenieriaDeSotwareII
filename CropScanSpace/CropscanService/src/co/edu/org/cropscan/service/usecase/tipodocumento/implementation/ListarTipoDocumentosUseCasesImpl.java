@@ -18,8 +18,7 @@ public class ListarTipoDocumentosUseCasesImpl implements ListarTipoDocumentoUseC
 	
 	@Override
 	public List<TipoDocumentoDomain> execute(Optional<TipoDocumentoDomain> domain) {
-		// TODO Auto-generated method stub
-		return null;
+		return List<TipoDocumentoDomain> repository;
 	}
 
 }
