@@ -1,11 +1,13 @@
 package co.edu.org.cropscan.service.facade.finca.implementation;
 
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import co.edu.org.cropscan.dto.FincaDTO;
 import co.edu.org.cropscan.service.domain.FincaDomain;
+import co.edu.org.cropscan.service.domain.TipoDocumentoDomain;
 import co.edu.org.cropscan.service.facade.finca.RegistrarFincaUseCaseFacade;
 import co.edu.org.cropscan.service.usecase.finca.RegistrarFincaUseCase;
 
@@ -16,11 +18,12 @@ public class RegistrarFincaUseCaseFacadeImpl implements RegistrarFincaUseCaseFac
 	@Autowired
 	private RegistrarFincaUseCase usecase;
 
+	@Autowired
+	private ModelMapper modelMapper;
 
 	@Override
 	public void execute(FincaDTO dto) {
-		//Sirve el asembler para llevar de DTO a Domain
-		FincaDomain domain = null;
+		FincaDomain domain = modelMapper.map(dto, FincaDomain.class);
 		usecase.execute(domain);
 		
 	}

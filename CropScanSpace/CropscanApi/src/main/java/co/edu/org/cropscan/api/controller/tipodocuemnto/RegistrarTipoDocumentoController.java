@@ -5,6 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -16,7 +17,6 @@ import co.edu.org.cropscan.service.facade.TipoDocumento.RegistrarTipoDocumentoUs
 import jakarta.validation.Valid;
 
 @RestController
-
 @RequestMapping("/cropscan/tipodocumento/registrar")
 public class RegistrarTipoDocumentoController {
 	
@@ -29,5 +29,6 @@ public class RegistrarTipoDocumentoController {
 		return new ResponseEntity<>("Éxito", HttpStatus.OK);
 		
 	}
+	
 }
 

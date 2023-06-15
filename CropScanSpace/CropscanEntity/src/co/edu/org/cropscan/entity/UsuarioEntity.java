@@ -32,6 +32,8 @@ public class UsuarioEntity {
 	@NotNull
 	@Pattern(regexp = "^[a-zA-Z]+$", message = "La cadena debe contener solo letras")
 	private String apellido;
+	@NotBlank
+	@NotNull
 	@ManyToOne
 	@JoinColumn(name = "tipodocumento")
 	private TipoDocumentoEntity tipodocumento;
@@ -42,6 +44,7 @@ public class UsuarioEntity {
     @Pattern(regexp = "^[0-9]+$", message = "La cadena debe contener solo números")
 	private long telefono;
 	@Email
+	@Column(unique = true, name="correo")
 	private String correo;
 	private String contrasena;
 

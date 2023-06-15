@@ -11,7 +11,7 @@ public class EmailController {
 	private final SendGrid toApi;
 	
 	public EmailController(){
-		this.toApi = new SendGrid("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");
+		this.toApi = new SendGrid("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\r\n");
 	}
 	
 	public void sendMail (){

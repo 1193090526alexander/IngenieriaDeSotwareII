@@ -1,10 +1,32 @@
 package co.edu.org.cropscan.service.domain;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Pattern;
+
 public class FincaDomain {
 	
+	@Id
+	@NotBlank
+	@NotNull
+	@GeneratedValue (strategy = GenerationType.IDENTITY)
 	private String nit;
+	@NotBlank
+	@NotNull
 	private UsuarioDomain usuario;
+	@NotBlank
+	@NotNull
+	@Pattern(regexp = "^[a-zA-Z]+$", message = "La cadena debe contener solo letras")
+	@Column(name="nombre")
 	private String nombre;
+	@NotBlank
+	@NotNull
+	@Pattern(regexp = "^[a-zA-Z]+$", message = "La cadena debe contener solo letras")
+	@Column(name="direccion")
 	private String direccion;
 	
 	private void setNit(String nit) {

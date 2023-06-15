@@ -1,5 +1,6 @@
 package co.edu.org.cropscan.service.facade.TipoDocumento.implementation;
 
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -19,15 +20,15 @@ public class RegistrarTipoDocumentoUseCaseFacadeImpl implements RegistrarTipoDoc
 	@Autowired
 	private RegistrarTipoDocuemntoUseCase usecase;
 
+	@Autowired
+
+	private ModelMapper modelMapper;
+	
 	@Override
 	public void execute(TipoDocumentoDTO dto) {
-		//Sirve el asembler para llevar de DTO a Domain
-	TipoDocumentoDomain domain = null;
+		
+	TipoDocumentoDomain domain = modelMapper.map(dto, TipoDocumentoDomain.class);
 	usecase.execute(domain);	
 	}
-
-
-
-
 
 }
