@@ -1,7 +1,10 @@
 package co.edu.org.cropscan.entity;
 
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
@@ -33,6 +36,7 @@ public class UsuarioEntity {
 	@JoinColumn(name = "tipodocumento")
 	private TipoDocumentoEntity tipodocumento;
 	@Id
+	@Column(name="documento", unique = true)
     @Pattern(regexp = "^[0-9]+$", message = "La cadena debe contener solo números")
 	private long documento;
     @Pattern(regexp = "^[0-9]+$", message = "La cadena debe contener solo números")
