@@ -24,6 +24,7 @@ public class UsuarioAssembler implements co.edu.org.cropscan.service.assembler.M
 	public UsuarioEntity AssemblerDomain(UsuarioDomain domain) {
 		return mapper.map(domain, UsuarioEntity.class);
 	}
+	
 	@Override
 	public UsuarioDomain AssemberEntity(UsuarioEntity entity) {
 		return mapper.map(entity, UsuarioDomain.class);
