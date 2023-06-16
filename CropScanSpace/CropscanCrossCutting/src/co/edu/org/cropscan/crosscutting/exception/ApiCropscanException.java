@@ -1,7 +1,8 @@
 package co.edu.org.cropscan.crosscutting.exception;
 
-import co.edu.org.cropscan.crosscutting.exception.nom.ExceptionLocation;
 
+import co.edu.org.cropscan.crosscutting.exception.nom.ExceptionLocation;
+import static co.edu.org.cropscan.crosscutting.exception.utilidades.UtilText.EMPTY;
 public class ApiCropscanException extends CropscanCropscanException{
     private ApiCropscanException(Exception rootException, String technicalMessage, String userMessage) {
         super(rootException, technicalMessage, userMessage, ExceptionLocation.API);
