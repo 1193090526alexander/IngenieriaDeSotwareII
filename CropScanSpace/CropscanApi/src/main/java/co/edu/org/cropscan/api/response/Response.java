@@ -3,6 +3,9 @@ package co.edu.org.cropscan.api.response;
 import java.util.ArrayList;
 import java.util.List;
 
+import co.edu.org.cropscan.api.response.dto.Message;
+import co.edu.org.cropscan.crosscutting.exception.utilidades.UtilObject;
+
 
 public class Response<D> {
 

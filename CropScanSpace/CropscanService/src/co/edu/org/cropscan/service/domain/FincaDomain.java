@@ -21,7 +21,7 @@ public class FincaDomain {
 	public String getNit() {
 		return nit;
 	}
-	public UsuarioDomain getUsuario() {
+	public  UsuarioDomain getUsuario() {
 		return usuario;
 	}
 	public String getNombre() {
