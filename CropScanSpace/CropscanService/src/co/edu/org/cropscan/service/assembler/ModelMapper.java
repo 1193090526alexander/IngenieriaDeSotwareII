@@ -1,12 +1,12 @@
-package co.edu.org.cropscan.service.assembler;
+ package co.edu.org.cropscan.service.assembler;
 import org.springframework.stereotype.Component;
 
 @Component
-public interface ModelMapper<D,E> {
+public interface ModelMapper<E ,D> {
 	
 	
-	E AssemblerDomain(D domain);
-	D AssemberEntity(E entity);
+    D assembleDomain(E entity);
+    E assembleEntity(D domain);
 	
 
 }
