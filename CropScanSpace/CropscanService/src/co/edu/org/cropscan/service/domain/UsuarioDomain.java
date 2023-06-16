@@ -51,6 +51,10 @@ public class UsuarioDomain {
 	public String getContrasena() {
 		return contrasena;
 	}
+	public Object getId() {
+		// TODO Auto-generated method stub
+		return ;
+	}
 
 	
 }

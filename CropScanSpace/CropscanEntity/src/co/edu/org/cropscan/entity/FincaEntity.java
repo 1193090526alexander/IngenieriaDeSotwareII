@@ -23,4 +23,6 @@ public class FincaEntity {
 	private UsuarioEntity usuario;
 	private String nombre;
 	private String direccion;
-}
+
+	}
+

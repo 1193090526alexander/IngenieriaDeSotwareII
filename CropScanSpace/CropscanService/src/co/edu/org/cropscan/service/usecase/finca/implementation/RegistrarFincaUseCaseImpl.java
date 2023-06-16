@@ -1,6 +1,6 @@
-package co.edu.uco.publiuco.service.usecase.ciudad.implementation;
+package co.edu.org.cropscan.service.usecase.finca.implementation;
 
-import co.edu.uco.publiuco.crosscutting.exception.ServicePubliUcoCustomException;
+import co.edu.org.cropscan.crosscutting.exception.CropscanCropscanException;
 import co.edu.org.cropscan.crosscutting.exception.utilidades.UtilUUID;
 import co.edu.org.cropscan.crosscutting.exception.ServiceCropscanException;
 import co.edu.org.cropscan.entity.FincaEntity;
@@ -17,7 +17,7 @@ public class RegistrarFincaUseCaseImpl implements RegistrarFincaUseCase {
 
     private final FincaRepository cityRepository;
     private final ModelMapper<FincaEntity, FincaDomain> ModelMapper;
-    private final ValidCitySpecification validCitySpecification;
+    private final ValidFincaSpecification validFincaSpecification;
 
     public RegistrarFincaUseCaseImpl(FincaRepository fincaRepository, ModelMapper<FincaEntity, FincaDomain> ModelMapper, ValidFIncaSpecification validFincaSpecification) {
         this.FincaRepository = fincaRepository;
@@ -28,12 +28,12 @@ public class RegistrarFincaUseCaseImpl implements RegistrarFincaUseCase {
     @Override
     public void execute(FincaDomain domain) {
         try {
-            domain.setId(UtilUUID.getNewUUID());
+            domain.setNit(UtilUUID.getNewUUID());
             FincaEntity entity = entityAssembler.assembleEntity(domain);
             validFincaSpecification.isSatisfyBy(domain);
-            FincaRepository.createCityByDepartment(entity.getId(),entity.getDepartment().getId()
+            FincaRepository.createCityByDepartment(entity.getNit(),entity.().getId()
                         ,entity.getName());
-        } catch (ServicePubliUcoCustomException exception) {
+        } catch (ServiceCropscanException exception) {
             throw exception;
         } catch (Exception e) {
             throw ServiceCropscanException.createTechnicalException("Hubo un error tratando de crear la finca ",e);

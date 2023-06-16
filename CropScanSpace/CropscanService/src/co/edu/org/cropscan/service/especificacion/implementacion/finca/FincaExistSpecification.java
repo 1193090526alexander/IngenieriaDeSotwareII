@@ -22,16 +22,17 @@ public class FincaExistSpecification extends CompositeSpecification<FincaDomain>
     }
 
     @Override
-    public boolean isSatisfyBy(FincaDomain cityDomain) {
+    public boolean isSatisfyBy(FincaDomain fincaDomain) {
         try {
-        	
-            Object response;
-			if (response.isPresent()) {
+            Optional<FincaEntity> response = cityRepository.findFincabyUser(FincaDomain.getUsuario().getId(),
+                    fincaDomain.getNit());
+            if (response.isPresent()) {
                 throw ServiceCropscanException.createUserException("Error tratando de crear la finca, el nombre de la finca ya esta registrado");
             }
         } catch (ServiceCropscanException exception) {
-            throw ServiceCropscanException.createUserException("Error al obtener la Finca "+exception.getMessage());
+            throw ServiceCropscanException.createUserException("Error al obtener la finca "+exception.getMessage());
         }
         return true;
     }
 }
+

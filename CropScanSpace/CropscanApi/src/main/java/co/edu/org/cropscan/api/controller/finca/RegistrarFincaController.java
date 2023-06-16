@@ -2,8 +2,8 @@ package co.edu.org.cropscan.api.controller.finca;
 
 import java.util.ArrayList;
 
-import org.apache.logging.log4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -28,7 +28,7 @@ import co.edu.org.cropscan.service.port.MailPort;
 @RequestMapping("/cropscan/api/v1/finca")
 public class RegistrarFincaController {
 	
-	private final Logger log = LoggerFactory.getLogger(this.getClass());
+	private final org.slf4j.Logger log = LoggerFactory.getLogger(this.getClass());
 	
 	@Autowired
 	private MailPort mailPort;
@@ -47,7 +47,7 @@ public class RegistrarFincaController {
             facade.execute(finca);
             response.addData(finca);
             response.addMessage(Message.createSuccessMessage("finca registrada", "La finca fue registrada"));
-            log.info("City register succesfully");
+            log.info("Finca registrada correo");
             mailPort.sendMail("Finca registrada " , "elmerp1193090526@gmail.com", "La finca ha sido registrada correctamente");
         } catch (CropscanCropscanException exception) {
             httpStatus = HttpStatus.BAD_REQUEST;

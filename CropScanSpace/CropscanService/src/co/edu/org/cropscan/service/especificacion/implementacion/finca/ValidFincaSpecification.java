@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 public class ValidFincaSpecification extends CompositeSpecification<FincaDomain> {
 
     @Autowired
-    FincaExistSpecification fincayExist;
+    FincaExistSpecification fincaExist;
 
     @Autowired
     FincaValidSpecification fincaIdValid;
