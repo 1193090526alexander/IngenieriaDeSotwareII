@@ -1,22 +1,28 @@
 package co.edu.org.cropscan.api.init;
 
+import com.azure.security.keyvault.secrets.SecretClient;
+import com.microsoft.applicationinsights.attach.ApplicationInsights;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
-@ComponentScan(basePackages = {"co.edu.org.cropscan"})
-@EnableJpaRepositories(basePackages = {"co.edu.org.cropscan" })
-@EntityScan(basePackages = {"co.edu.org.cropscan" })
-@ComponentScan(basePackages = "co.edu.org.cropscan.service.assembler")
-@SpringBootApplication
-@EnableAutoConfiguration
 
+
+@SpringBootApplication
+@ComponentScan(basePackages = {"co.edu.uco.publiuco"})
+@EnableJpaRepositories(basePackages = {"co.edu.uco.publiuco" })
+@EntityScan(basePackages = {"co.edu.uco.publiuco" })
 public class CropscanApiApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(CropscanApiApplication.class, args);
-	}
+    @Autowired
+    private SecretClient secretClient;
+
+
+    public static void main(String[] args) {
+        ApplicationInsights.attach();
+        SpringApplication.run(CropscanApiApplication.class, args);
+    }
 
 }
