@@ -11,9 +11,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"co.edu.uco.publiuco"})
-@EnableJpaRepositories(basePackages = {"co.edu.uco.publiuco" })
-@EntityScan(basePackages = {"co.edu.uco.publiuco" })
+@ComponentScan(basePackages = {"co.edu.org.cropscan"})
+@EnableJpaRepositories(basePackages = {"co.edu.org.cropscan" })
+@EntityScan(basePackages = {"co.edu.org.cropscan" })
 public class CropscanApiApplication {
 
     @Autowired
